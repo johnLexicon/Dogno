@@ -1,6 +1,10 @@
 ﻿namespace Dogno
 {
-    public class Item
+    public class Item : Entity
     {
+        public Item() : base("i")
+        {
+
+        }
     }
 }
